@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE students SYSTEM "student-profile.dtd">
+<students>
+    <student id="101">
+        <name>Aarav Sharma</name>
+        <email>aarav@student.local</email>
+        <college>ABC Institute of Technology</college>
+        <degree>B.Tech</degree>
+        <branch>Computer Science</branch>
+        <graduation_year>2027</graduation_year>
+        <skills>
+            <skill proficiency="advanced">HTML</skill>
+            <skill proficiency="advanced">CSS</skill>
+            <skill proficiency="intermediate">JavaScript</skill>
+            <skill proficiency="intermediate">PHP</skill>
+        </skills>
+    </student>
+    <student id="102">
+        <name>Priya Patel</name>
+        <email>priya@student.local</email>
+        <college>XYZ Engineering College</college>
+        <degree>B.Tech</degree>
+        <branch>Information Technology</branch>
+        <graduation_year>2027</graduation_year>
+        <skills>
+            <skill proficiency="advanced">Python</skill>
+            <skill proficiency="intermediate">MySQL</skill>
+            <skill proficiency="intermediate">Pandas</skill>
+        </skills>
+    </student>
+    <student id="103">
+        <name>Rahul Kumar</name>
+        <email>rahul@student.local</email>
+        <college>DEF University</college>
+        <degree>B.Tech</degree>
+        <branch>Computer Science</branch>
+        <graduation_year>2026</graduation_year>
+        <skills>
+            <skill proficiency="advanced">Java</skill>
+            <skill proficiency="advanced">MySQL</skill>
+            <skill proficiency="intermediate">React</skill>
+        </skills>
+    </student>
+    <student id="104">
+        <name>Ananya Iyer</name>
+        <email>ananya@student.local</email>
+        <college>National Institute of Science</college>
+        <degree>BCA</degree>
+        <branch>Computer Applications</branch>
+        <graduation_year>2026</graduation_year>
+        <skills>
+            <skill proficiency="intermediate">HTML</skill>
+            <skill proficiency="intermediate">CSS</skill>
+            <skill proficiency="beginner">JavaScript</skill>
+        </skills>
+    </student>
+    <student id="105">
+        <name>Rohan Verma</name>
+        <email>rohan@student.local</email>
+        <college>City College of Engineering</college>
+        <degree>B.Tech</degree>
+        <branch>Electronics</branch>
+        <graduation_year>2027</graduation_year>
+        <skills>
+            <skill proficiency="intermediate">C</skill>
+            <skill proficiency="intermediate">C++</skill>
+            <skill proficiency="beginner">Python</skill>
+        </skills>
+    </student>
+    <student id="106">
+        <name>Sneha Reddy</name>
+        <email>sneha@student.local</email>
+        <college>Apex University</college>
+        <degree>MCA</degree>
+        <branch>Computer Science</branch>
+        <graduation_year>2026</graduation_year>
+        <skills>
+            <skill proficiency="advanced">Java</skill>
+            <skill proficiency="intermediate">SQL</skill>
+            <skill proficiency="beginner">Docker</skill>
+        </skills>
+    </student>
+    <student id="107">
+        <name>Vikram Singh</name>
+        <email>vikram@student.local</email>
+        <college>Govt Engineering College</college>
+        <degree>B.Tech</degree>
+        <branch>Information Technology</branch>
+        <graduation_year>2028</graduation_year>
+        <skills>
+            <skill proficiency="beginner">HTML</skill>
+            <skill proficiency="beginner">CSS</skill>
+            <skill proficiency="beginner">Git</skill>
+        </skills>
+    </student>
+    <student id="108">
+        <name>Divya Joshi</name>
+        <email>divya@student.local</email>
+        <college>Modern Institute of Technology</college>
+        <degree>B.Sc</degree>
+        <branch>Computer Science</branch>
+        <graduation_year>2026</graduation_year>
+        <skills>
+            <skill proficiency="intermediate">Python</skill>
+            <skill proficiency="beginner">Data Structures</skill>
+        </skills>
+    </student>
+    <student id="109">
+        <name>Karan Malhotra</name>
+        <email>karan@student.local</email>
+        <college>Global Technical Campus</college>
+        <degree>B.Tech</degree>
+        <branch>Computer Science</branch>
+        <graduation_year>2027</graduation_year>
+        <skills>
+            <skill proficiency="advanced">JavaScript</skill>
+            <skill proficiency="intermediate">Node.js</skill>
+            <skill proficiency="intermediate">MongoDB</skill>
+        </skills>
+    </student>
+    <student id="110">
+        <name>Meera Nair</name>
+        <email>meera@student.local</email>
+        <college>State University</college>
+        <degree>B.Tech</degree>
+        <branch>Information Technology</branch>
+        <graduation_year>2026</graduation_year>
+        <skills>
+            <skill proficiency="advanced">PHP</skill>
+            <skill proficiency="advanced">MySQL</skill>
+            <skill proficiency="intermediate">Bootstrap</skill>
+        </skills>
+    </student>
+</students>
+

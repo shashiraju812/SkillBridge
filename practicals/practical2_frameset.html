@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Practical 2: HTML Frameset Layout</title>
+</head>
+<frameset rows="80,*" frameborder="1" border="2">
+    <!-- Top frame: Header -->
+    <frame src="practical2_header.html" name="headerFrame" scrolling="no" noresize>
+    <frameset cols="220,*">
+        <!-- Left frame: Navigation Menu -->
+        <frame src="practical2_nav.html" name="menuFrame">
+        <!-- Right frame: Content Display -->
+        <frame src="practical2_main.html" name="contentFrame">
+    </frameset>
+</frameset>
+<noframes>
+    <body>
+        <p>Your browser does not support HTML frames. Modern web standards use CSS grid/flexbox or iframes instead.</p>
+    </body>
+</noframes>
+</html>
+

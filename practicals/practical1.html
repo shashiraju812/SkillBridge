@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Practical 1: HTML Registration Form</title>
+    <style>
+        body { font-family: Arial, sans-serif; background-color: #f4f6f8; margin: 30px; }
+        .form-container { background: #fff; max-width: 600px; margin: 0 auto; padding: 25px; border: 1px solid #ddd; border-radius: 8px; }
+        fieldset { border: 1px solid #ccc; padding: 15px; margin-bottom: 15px; border-radius: 4px; }
+        legend { font-weight: bold; color: #0d9488; }
+        .row { margin-bottom: 12px; }
+        label { display: inline-block; width: 140px; vertical-align: top; font-weight: bold; }
+        input[type="text"], input[type="email"], input[type="password"], select, textarea {
+            width: 380px; padding: 7px; border: 1px solid #ccc; border-radius: 4px; box-sizing: border-box;
+        }
+        .btn-group { text-align: center; margin-top: 15px; }
+        input[type="submit"], input[type="reset"] {
+            padding: 9px 20px; border: none; border-radius: 4px; cursor: pointer; font-size: 14px;
+        }
+        input[type="submit"] { background: #0d9488; color: #fff; }
+        input[type="reset"] { background: #6b7280; color: #fff; margin-left: 10px; }
+    </style>
+</head>
+<body>
+
+<div class="form-container">
+    <h2 style="text-align: center; color: #111827;">SkillBridge Student Registration</h2>
+    <p style="text-align: center; color: #6b7280; font-size: 14px;">Web Technologies Lab — Practical 1</p>
+
+    <form action="#" method="POST">
+        <fieldset>
+            <legend>Personal & Login Credentials</legend>
+            <div class="row">
+                <label for="name">Full Name:</label>
+                <input type="text" id="name" name="name" required placeholder="Enter student full name">
+            </div>
+            <div class="row">
+                <label for="email">Email Address:</label>
+                <input type="email" id="email" name="email" required placeholder="name@college.edu">
+            </div>
+            <div class="row">
+                <label for="pwd">Password:</label>
+                <input type="password" id="pwd" name="password" required>
+            </div>
+            <div class="row">
+                <label>Gender:</label>
+                <input type="radio" id="g_male" name="gender" value="Male" checked> <label for="g_male" style="width:auto; font-weight:normal;">Male</label>
+                <input type="radio" id="g_female" name="gender" value="Female"> <label for="g_female" style="width:auto; font-weight:normal;">Female</label>
+            </div>
+        </fieldset>
+
+        <fieldset>
+            <legend>Academic Information</legend>
+            <div class="row">
+                <label for="college">College:</label>
+                <input type="text" id="college" name="college" required>
+            </div>
+            <div class="row">
+                <label for="degree">Degree:</label>
+                <select id="degree" name="degree">
+                    <option value="B.Tech">B.Tech</option>
+                    <option value="BCA">BCA</option>
+                    <option value="MCA">MCA</option>
+                    <option value="M.Tech">M.Tech</option>
+                </select>
+            </div>
+            <div class="row">
+                <label>Technical Skills:</label>
+                <input type="checkbox" id="sk_java" name="skills" value="Java"> <label for="sk_java" style="width:auto; font-weight:normal;">Java</label>
+                <input type="checkbox" id="sk_php" name="skills" value="PHP"> <label for="sk_php" style="width:auto; font-weight:normal;">PHP</label>
+                <input type="checkbox" id="sk_sql" name="skills" value="MySQL"> <label for="sk_sql" style="width:auto; font-weight:normal;">MySQL</label>
+                <input type="checkbox" id="sk_js" name="skills" value="JavaScript"> <label for="sk_js" style="width:auto; font-weight:normal;">JavaScript</label>
+            </div>
+            <div class="row">
+                <label for="bio">Career Objective:</label>
+                <textarea id="bio" name="bio" rows="3"></textarea>
+            </div>
+        </fieldset>
+
+        <div class="btn-group">
+            <input type="submit" value="Register Now">
+            <input type="reset" value="Reset Fields">
+        </div>
+    </form>
+</div>
+
+</body>
+</html>
+

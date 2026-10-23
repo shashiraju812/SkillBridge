@@ -1,0 +1,9 @@
+# SkillBridge .gitignore
+*.log
+.system_generated/
+tmp/
+Thumbs.db
+Desktop.ini
+.DS_Store
+.vscode/
+.idea/

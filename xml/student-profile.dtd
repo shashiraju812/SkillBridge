@@ -1,0 +1,14 @@
+<!-- DTD for SkillBridge Student Skill Profiles -->
+<!ELEMENT students (student+)>
+<!ELEMENT student (name, email, college, degree, branch, graduation_year, skills)>
+<!ATTLIST student id CDATA #REQUIRED>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT email (#PCDATA)>
+<!ELEMENT college (#PCDATA)>
+<!ELEMENT degree (#PCDATA)>
+<!ELEMENT branch (#PCDATA)>
+<!ELEMENT graduation_year (#PCDATA)>
+<!ELEMENT skills (skill*)>
+<!ELEMENT skill (#PCDATA)>
+<!ATTLIST skill proficiency (beginner|intermediate|advanced) "beginner">
+

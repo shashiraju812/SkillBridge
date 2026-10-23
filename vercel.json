@@ -1,0 +1,45 @@
+{
+  "version": 2,
+  "functions": {
+    "api/**/*.php": {
+      "runtime": "vercel-php@0.7.3"
+    },
+    "*.php": {
+      "runtime": "vercel-php@0.7.3"
+    },
+    "student/*.php": {
+      "runtime": "vercel-php@0.7.3"
+    },
+    "recruiter/*.php": {
+      "runtime": "vercel-php@0.7.3"
+    },
+    "admin/*.php": {
+      "runtime": "vercel-php@0.7.3"
+    },
+    "practicals/*.php": {
+      "runtime": "vercel-php@0.7.3"
+    }
+  },
+  "routes": [
+    {
+      "src": "/assets/(.*)",
+      "dest": "/assets/$1"
+    },
+    {
+      "src": "/practicals/(.*\\.(html|css|js))",
+      "dest": "/practicals/$1"
+    },
+    {
+      "src": "/xml/(.*)",
+      "dest": "/xml/$1"
+    },
+    {
+      "src": "/wtproject/(.*)",
+      "dest": "/$1"
+    },
+    {
+      "src": "/(.*)",
+      "dest": "/$1"
+    }
+  ]
+}
