@@ -11,3 +11,8 @@ Desktop.ini
 .vercel
 
 /database/skillbridge.db
+
+# Local database containing personal data
+database/skillbridge.db
+# Compiled Java files
+*.class
