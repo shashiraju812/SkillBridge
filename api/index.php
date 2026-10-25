@@ -33,3 +33,4 @@ if (file_exists($target) && !is_dir($target)) {
 
 // Fallback to home page
 require dirname(__DIR__) . '/index.php';
+

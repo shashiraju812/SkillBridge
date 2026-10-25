@@ -7,3 +7,7 @@ Desktop.ini
 .DS_Store
 .vscode/
 .idea/
+
+.vercel
+
+/database/skillbridge.db
